@@ -96,7 +96,7 @@ export function TrainingHub({
             onClick={() => setActiveGame(null)}
             className="mb-3 text-xs text-pink-400 hover:text-pink-200"
           >
-            ← Kembali ke menu
+            ← Back to menu
           </button>
 
           {activeGame === "ribbon" && (

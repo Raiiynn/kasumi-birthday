@@ -225,7 +225,7 @@ export function MaskRevealGame({
 
   return (
     <GamePanel>
-      <P5Title sub="Ketuk topeng — lihat kejutannya">Mask Reveal</P5Title>
+      <P5Title sub="Tap the mask & see the surprise">Mask Reveal</P5Title>
 
       <div className="relative mt-4 min-h-[240px] overflow-hidden rounded-xl border border-red-900/30 bg-gradient-to-b from-black/60 to-rose-950/20 px-3 py-4">
         <AnimatePresence mode="wait">
@@ -256,7 +256,7 @@ export function MaskRevealGame({
               exit={{ opacity: 0 }}
               className="flex h-[240px] flex-col items-center justify-center gap-3 px-2"
             >
-              <p className="text-center text-sm text-pink-400/60">Pilih topeng di bawah…</p>
+              <p className="text-center text-sm text-pink-400/60"></p>
               <div className="grid w-full max-w-[260px] grid-cols-2 gap-2">
                 {masks.map((m) => (
                   <div

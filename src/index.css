@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#0f101a] text-pink-50 antialiased;
+    font-family: "Outfit", system-ui, sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-script {
+    font-family: "Segoe Script", "Brush Script MT", "Snell Roundhand", cursive;
+  }
+
+  .text-gradient-magenta {
+    @apply bg-gradient-to-r from-pink-500 to-royal-crimson bg-clip-text text-transparent;
+  }
+
+  .btn-pill-shadow {
+    box-shadow: 0 8px 28px rgba(194, 24, 91, 0.35);
+  }
+
+  .btn-pill-shadow:active {
+    box-shadow: 0 4px 14px rgba(194, 24, 91, 0.3);
+  }
+
+  .p5-title {
+    text-shadow: 2px 2px 0 rgba(230, 27, 65, 0.5);
+  }
+
+  .p5-skew-btn {
+    transform: skewX(-4deg);
+    clip-path: polygon(4% 0, 100% 0, 96% 100%, 0% 100%);
+  }
+
+  .p5-card {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%);
+  }
+}

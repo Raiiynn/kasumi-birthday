@@ -1,10 +1,10 @@
 import { AnimatePresence, motion } from "framer-motion";
 
 export const BOND_RANKS = [
-  { min: 0, label: "Rank 1", title: "Kenalan" },
-  { min: 15, label: "Rank 2", title: "Teman" },
-  { min: 30, label: "Rank 3", title: "Akrab" },
-  { min: 50, label: "Rank 4", title: "Dekat" },
+  { min: 0, label: "Rank 1", title: "Acquaintance" },
+  { min: 15, label: "Rank 2", title: "Friend" },
+  { min: 30, label: "Rank 3", title: "Familiar" },
+  { min: 50, label: "Rank 4", title: "Intimate" },
   { min: 70, label: "Rank 5", title: "Spesial" },
   { min: 90, label: "MAX", title: "Confidant MAX" },
 ];

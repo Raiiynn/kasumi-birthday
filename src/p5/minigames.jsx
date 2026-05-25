@@ -68,7 +68,7 @@ export function RibbonRushGame({ goal = 12, duration = 18, onWin, onBond }) {
         {!playing && score < goal && (
           <div className="flex h-full flex-col items-center justify-center gap-3">
             <span className="text-3xl">🎀</span>
-            <P5Button onClick={start}>Mulai</P5Button>
+            <P5Button onClick={start}>Start</P5Button>
           </div>
         )}
         {playing && (

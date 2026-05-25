@@ -371,7 +371,7 @@ export function AllOutAttackGame({ duration = 3, onComplete, onBond, onFlash }) 
 
   return (
     <GamePanel>
-      <P5Title sub="Spam STRIKE! 3 detik">All-Out Attack</P5Title>
+      <P5Title sub="Spam STRIKE! 3 seconds">All-Out Attack</P5Title>
 
       <div className="mt-4 text-center">
         <AnimatePresence mode="wait">
